@@ -64,6 +64,7 @@ body, html {
 
 #wrapper #quoteDisplay {
     font-size: 14px;
+    line-height: 1.5;
 }
 
 #wrapper h1 {
@@ -82,6 +83,7 @@ body, html {
     
     #wrapper #quoteDisplay {
         font-size: 12px;
+        text-transform: capitalize;
     }
 
     #wrapper button {
