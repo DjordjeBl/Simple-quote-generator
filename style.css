@@ -1,0 +1,50 @@
+body, html {
+    background-image: url('picture.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    text-align: center;
+    font-family: sans-serif;
+    color: #fff;    
+}
+
+#wrapper {
+    background: rgba(0, 0, 0, .2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+#wrapper button {
+    margin-top: 20px;
+    border: 1px solid #fff;
+    outline: none;
+    padding: 5px;
+    background: transparent;
+    color: #fff;
+}
+
+#wrapper h1 {
+    font-weight: normal;
+}
+
+@media screen and (max-width: 700px) {
+
+    #wrapper {
+        width: 80%;
+    }
+    #wrapper h1 {
+        font-size: 18px;
+    }
+    
+    #wrapper #quoteDisplay {
+        font-size: 16px;
+    }
+
+    #wrapper button {
+        padding: 2px;
+        font-size: 12px;
+    }
+}
