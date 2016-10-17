@@ -1,12 +1,12 @@
 var quotes = [
-    'The way to get started is to quit talking and begin doing. - Walt Disney',
-    'The pessimist sees difficulty in every opportunity. The optimist sees the opportunity in every difficulty. - Winston Churchill',
-    'Don\'t let yesterday take up too much of today. - Will Roger',
-    'You learn more from failure than from success. Don\'t let it stop you. Failure builds characters. - Unknown',
-    'It\'s not whether you get knocked down, it\'s whether you get up. - Vince Lombardi',
-    'If you are working on something that you really care about, you don\'t have to be pushed.',
-    'Failure will never overtake me if my determination to succeed is strong enough. - Og Mandir',
-    'We may encounter many defeats but we must not be defeated. - Maya Angelou'
+    "\"The way to get started is to quit talking and begin doing.\"<br> - Walt Disney",
+    "\"The pessimist sees difficulty in every opportunity. The optimist sees the opportunity in every difficulty.\"<br> - Winston Churchill",
+    "\"Don\'t let yesterday take up too much of today.\"<br> - Will Roger",
+    "\"You learn more from failure than from success. Don\'t let it stop you. Failure builds characters.\"<br> - Unknown",
+    "\"It\'s not whether you get knocked down, it\'s whether you get up.\"<br> - Vince Lombardi",
+    "\"If you are working on something that you really care about, you don\'t have to be pushed.\"",
+    "\"Failure will never overtake me if my determination to succeed is strong enough.\"<br> - Og Mandir",
+    "\"We may encounter many defeats but we must not be defeated.\"<br> - Maya Angelou"
 ]
 
 /* Elements within an array are retrieved by calling it's array index number. The first element of an array has an index of 0, every element
