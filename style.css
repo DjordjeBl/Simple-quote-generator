@@ -11,6 +11,7 @@ body, html {
 #wrapper {
     background: rgba(0, 0, 0, .2);
     position: absolute;
+    text-transform: uppercase;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -26,8 +27,13 @@ body, html {
     color: #fff;
 }
 
+#wrapper #quoteDisplay {
+    font-size: 14px;
+}
+
 #wrapper h1 {
     font-weight: normal;
+    font-size: 20px;
 }
 
 @media screen and (max-width: 700px) {
@@ -36,11 +42,11 @@ body, html {
         width: 80%;
     }
     #wrapper h1 {
-        font-size: 18px;
+        font-size: 16px;
     }
     
     #wrapper #quoteDisplay {
-        font-size: 16px;
+        font-size: 12px;
     }
 
     #wrapper button {
